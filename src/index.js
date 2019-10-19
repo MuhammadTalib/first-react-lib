@@ -14,7 +14,9 @@ export default class ExampleComponent extends Component {
     } = this.props
 
     return (
-      <div className={styles.test}>
+      <div className={styles.test} style={{
+        backgroundColor:"#f0f"
+      }}>
         Example Component: {text}
       </div>
     )
